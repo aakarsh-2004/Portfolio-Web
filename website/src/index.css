@@ -1,0 +1,28 @@
+body {
+    font-family: "Inter", sans-serif;
+    background: linear-gradient(205deg,
+            #fefefe,
+            #fefefe,
+            rgba(0, 191, 255, 0.543));
+    background-size: 200% 200%;
+    background-repeat: no-repeat;
+    /* animation: gradient-animation 24s ease infinite; */
+    background-color: #040303;
+    scroll-snap-type: mandatory;
+    background-attachment: fixed;
+    position: relative;
+}
+
+@keyframes gradient-animation {
+    0% {
+        background-position: 0% 50%;
+    }
+
+    50% {
+        background-position: 100% 50%;
+    }
+
+    100% {
+        background-position: 0% 50%;
+    }
+}

@@ -1,0 +1,30 @@
+
+div.LandingPage {
+    height: 90vh;
+    width: 100%;
+    display: flex;
+}
+
+h3 > span {
+    text-decoration: none;
+}
+
+.first {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+h1, h3 {
+    color: black;
+}
+
+.first > h1 {
+    font-size: 12rem;
+}
+
+.first > h3 {
+    font-size: 3rem;
+}

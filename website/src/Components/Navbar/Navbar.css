@@ -1,0 +1,58 @@
+@import url('https://fonts.googleapis.com/css2?family=Noticia+Text&display=swap');
+* {
+    font-family: 'Noticia Text', serif;
+    margin: 0;
+    padding: 0;
+}
+
+.Navbar {
+    position: sticky;
+    display: flex;
+    padding: 15px;
+    justify-content: center;
+    top: 0;
+    z-index: 9999;
+}
+
+li {
+    list-style: none;
+    color: black;
+    padding: 5px;
+}
+
+li > a {
+    color: black;
+    text-decoration: none;
+    font-size: 1.4rem;
+    transition: all 0.2s ease;
+}
+
+li > a:hover {
+    color: grey;
+}
+
+span {
+    color: rgb(255, 126, 182);
+}
+
+ul {
+    display: flex;
+    gap: 100px;
+}
+
+.ul-scroll {
+    background-color: rgba(196, 196, 196, 0.603);
+    border-radius: 20px;
+    padding: 10px;
+    animation: come_in 0.1s ease 1;
+    margin-top: 20px;
+}
+
+@keyframes come_in {
+    0% {
+        margin-top: 0px;
+    }
+    100% {
+        margin-top: 10px;
+    }
+}

@@ -1,0 +1,39 @@
+.Contact {
+    padding-top: 100px;
+}
+
+.Contact > h1 {
+    font-size: 3.5rem;
+    padding-left: 100px;
+}
+
+.contact-details {
+    padding-top: 20px;
+    padding-left: 100px;
+}
+
+.contact-details > h1 {
+    font-size: 1.2rem;
+}
+
+.icons {
+    padding: 40px;
+    display: flex;
+    width: 90%;
+    gap: 100px;
+    justify-content: center;
+    align-items:center;
+}
+
+.copyright {
+    text-align: center;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+.contact-details > h1 {
+    display: flex;
+    height: 40px;
+    align-items: center;
+    gap: 10px;
+}

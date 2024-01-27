@@ -1,0 +1,59 @@
+.Blog {
+    height: 100vh;
+    width: 100%;
+}
+
+.Blogs > h1 {
+    font-size: 3.5rem;
+    padding-left: 100px;
+}
+
+.BlogCont {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.blog {
+    padding: 60px;
+    width: 50%;
+}
+
+.blog-title {
+    font-size: 2.5rem;
+}
+
+.blog-title > span {
+    font-size: 1.2rem;
+}
+
+.blog-content {
+    margin-top: 20px;
+    font-size: 1rem;
+}
+
+.blog > p {
+    color: black;
+}
+
+.blog > img {
+    height: 550px;
+    width: 800px;
+    border-radius: 10px;
+    margin-top: 20px;
+}
+
+.readtime {
+    color: grey;
+    font-size: 1rem !important;
+}
+
+span > a {
+    color: rgb(255, 126, 182);
+    text-decoration: none;
+}
+
+span > a:hover {
+    cursor: pointer;
+}

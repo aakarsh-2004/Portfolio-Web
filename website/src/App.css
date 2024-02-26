@@ -1,4 +1,29 @@
+
 * {
     color: white;
     scroll-behavior: smooth;
+}
+
+.NavbarPhone {
+    visibility: hidden;
+}
+
+
+@media screen and (max-width: 480px) {
+    body {
+        border: 0px !important;
+        padding: 0px !important;
+    }
+    .App {
+        display: flex !important;
+        flex-direction: column !important;
+        width: 100% !important;
+    }
+    .Navbar {
+        visibility: hidden;
+    }
+    .NavbarPhone {
+        visibility: visible;
+    }
+    
 }

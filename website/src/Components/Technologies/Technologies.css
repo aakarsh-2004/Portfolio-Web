@@ -1,0 +1,50 @@
+.Technologies {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    width: 80%;
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+
+.Technologies > h1 {
+    font-size: 3.5rem;
+    padding-left: 100px;
+}
+
+.icon {
+    height: 100px;
+    width: 100px;
+}
+
+.technology-1, .technology-2 {
+    display: flex;
+    flex-wrap: wrap;
+    width: 110%;
+    gap: 40px;
+    padding-left: 100px;
+    margin-top: 40px;
+}
+
+
+.nodejs-icon {
+    width: 150px;
+}
+
+@media screen and (max-width: 480px) {
+    .Technologies {
+        width: 100%;
+    }
+    .technology-1 {
+        max-width: 100% !important;
+        flex-wrap: wrap;
+        padding: 10px !important;
+    }
+    .Technologies > h1 {
+        padding-left: 10px !important;
+    }
+    .technology-1 > img {
+        width: 50px;
+        height: 50px;
+    }
+}

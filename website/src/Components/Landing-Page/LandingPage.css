@@ -28,3 +28,17 @@ h1, h3 {
 .first > h3 {
     font-size: 3rem;
 }
+
+
+@media screen and (max-width: 480px) {
+    .LandingPage {
+        width: 100%;
+        height: 70vh !important;
+    }
+    .first > h1 {
+        font-size: 8rem !important;
+    }
+    .first > h3 {
+        font-size: 2rem !important;
+    }
+}

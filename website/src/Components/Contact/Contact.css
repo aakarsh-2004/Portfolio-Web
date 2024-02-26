@@ -12,8 +12,14 @@
     padding-left: 100px;
 }
 
-.contact-details > h1 {
+.mail > h1 {
     font-size: 1.2rem;
+}
+
+.mail {
+    display: flex;
+    gap: 10px;
+    align-items: center;
 }
 
 .icons {
@@ -36,4 +42,35 @@
     height: 40px;
     align-items: center;
     gap: 10px;
+}
+
+
+@media screen and (max-width: 480px) {
+    .Contact {
+        padding: 0px !important;
+    }
+    .Contact > h1 {
+        padding: 10px !important;
+    }
+    .icons {
+        padding: 10px !important;
+        max-width: 90%;
+        display: flex;
+        gap: 20px;
+        margin-top: 30px;
+    }
+    .mail {
+        padding-left: 10px !important;
+    }
+    .mail > h1 {
+        padding: 0px !important;
+        font-size: 1rem !important;
+    }
+    .contact-details {
+        padding: 0px !important;
+        margin-top: 30px;
+    }
+    .copyright {
+        font-size: 1rem;
+    }
 }

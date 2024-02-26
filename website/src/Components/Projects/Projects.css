@@ -1,0 +1,120 @@
+.Blog {
+    height: 100vh;
+    width: 100%;
+}
+
+.Blogs > h1 {
+    font-size: 3.5rem;
+    padding-left: 100px;
+}
+
+.BlogCont {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.blog {
+    padding: 60px;
+    width: 50%;
+}
+
+.blog-title {
+    font-size: 2.5rem;
+}
+
+.blog-title > span {
+    font-size: 1.2rem;
+}
+
+.blog-content {
+    margin-top: 20px;
+    font-size: 1rem;
+}
+
+.blog > p {
+    color: black;
+}
+
+.blog > img {
+    height: 550px;
+    width: 800px;
+    border-radius: 10px;
+    margin-top: 20px;
+}
+
+.readtime {
+    color: grey;
+    font-size: 1rem !important;
+}
+
+span > a {
+    color: rgb(255, 126, 182);
+    text-decoration: none;
+}
+
+span > a:hover {
+    cursor: pointer;
+}
+
+.buttons > button {
+    border: 1px solid black;
+    background-color: transparent;
+    padding: 7px;
+    border-radius: 8px;
+    transition: all 0.2s ease;
+}
+
+.buttons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+}
+
+.buttons > button > a {
+    text-decoration: none;
+    color: black;
+    font-size: 1.1rem;
+}
+
+.buttons > button:hover {
+    background-color: rgba(255, 126, 182, 0.495);
+    border: none;
+}
+
+@media screen and (max-width: 480px) {
+    .Blogs {
+        margin-top: 300px;
+    }
+    .Blogs > h1 {
+        padding-left: 10px !important;
+    }
+    .blog > h1 {
+        font-size: 1.1rem;
+        padding: 0 !important;
+    }
+    .BlogCont {
+        display: flex !important;
+        flex-direction: column !important;
+        margin-top: 20px;
+        padding-left: 10px;
+    }
+    .blog > img {
+        width: 300px;
+        height: 200px;
+    }
+    .blog {
+        padding: 0 !important;
+        width: 100%;
+        margin-top: 40px;
+    }
+    .blog-title > span {
+        font-size: 0.7rem;
+    }
+    .buttons {
+        margin-top: 20px;
+    }
+    
+}

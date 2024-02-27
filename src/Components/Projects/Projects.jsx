@@ -6,15 +6,14 @@ import './Projects.css'
 const Blog = () => {
     const [ref, inView] = useInView({
         triggerOnce: true,
-        threshold: 0.37
+        threshold: 0.10
     });
-
+    
     const props = useSpring({
         opacity: inView ? 1 : 0,
-        transform: inView ? 'translateX(0%)' : 'translateX(-5%)',
+        transform: inView ? 'translateY(0%)' : 'translateY(-5%)',
         config: { mass: 1, tension: 120, friction: 40 }
     });
-
     return (
         <animated.div className='Blogs' ref={ref} style={props}>
             <h1>My Projec<span>ts</span></h1>

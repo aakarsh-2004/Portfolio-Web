@@ -9,6 +9,12 @@
     padding-bottom: 200px;
 }
 
+.AboutSection {
+    /* height: 70vh; */
+    width: 100%;
+    /* padding-left: 40px; */
+}
+
 .info {
     padding: 10px;
     width: 50%;
@@ -42,13 +48,14 @@
 
 @media screen and (max-width: 480px) {
     .AboutMe {
-        height: 100vh !important;
+        height: 60vh !important;
         max-width: 100% !important;
         display: flex;
         flex-direction: column-reverse;
         justify-content: center !important;
         align-items: center !important;
         padding-left: 0;
+        margin-top: 100px;
         /* padding-top: 150px; */
     }
     .info {
@@ -76,17 +83,19 @@
     .about-content {
         width: 350px;
         padding: 0px !important;
-        margin: 0px !important;
+        /* margin-top: 40px !important; */
     }
     .mypicabout {
         height: 200px !important;
         width: 200px !important;
-        /* margin-top: 100px !important; */
+        padding: 0px !important;
+        margin-top: 100px !important;
     }
     .AboutSection {
         display: flex;
         flex-direction: column;
         justify-content: center;
         margin-top: 100px;
+        border: 2px solid red;
     }
 }

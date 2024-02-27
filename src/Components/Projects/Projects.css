@@ -92,7 +92,6 @@ span > a:hover {
     .Blogs {
         margin-top: 80px !important;
         padding: 0 !important;
-        border: 2px solid red !important;
         max-width: 100% !important;
     }
     .Blogs > h1 {

@@ -8,14 +8,15 @@ const Blog = () => {
         triggerOnce: true,
         threshold: 0.37
     });
-    
+
     const props = useSpring({
         opacity: inView ? 1 : 0,
-        transform: inView ? 'translateY(0%)' : 'translateY(-5%)',
+        transform: inView ? 'translateX(0%)' : 'translateX(-5%)',
         config: { mass: 1, tension: 120, friction: 40 }
     });
+
     return (
-        <div className='Blogs'>
+        <animated.div className='Blogs' ref={ref} style={props}>
             <h1>My Projec<span>ts</span></h1>
             <div className="BlogCont">
                 <div className="blog">
@@ -39,7 +40,7 @@ const Blog = () => {
                     </div>
                 </div>
             </div>
-        </div>
+        </animated.div>
     );
 };
 

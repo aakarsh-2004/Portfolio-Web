@@ -15,7 +15,7 @@ const Blog = () => {
         config: { mass: 1, tension: 120, friction: 40 }
     });
     return (
-        <animated.div className='Blogs' ref={ref} style={props}>
+        <div className='Blogs'>
             <h1>My Projec<span>ts</span></h1>
             <div className="BlogCont">
                 <div className="blog">
@@ -39,7 +39,7 @@ const Blog = () => {
                     </div>
                 </div>
             </div>
-        </animated.div>
+        </div>
     );
 };
 

@@ -15,7 +15,7 @@
 }
 
 .about-h1 {
-    font-size: 3.5rem;
+    font-size: 3rem;
     padding-left: 100px;
     margin-top: 50px;
 }
@@ -26,25 +26,13 @@
     font-size: 1rem;
     color: black;
 }
-/* .about-h1 {
-    border: 2px solid red;
-}
-.AboutMe {
-    border: 2px solid red;
-}
-.info {
-    border: 2px solid red;
-} */
+
 .picture {
     height: 500px;
     width: 50%;
     display: flex;
     justify-content: center;
-    /* border: 2px solid red; */
 }
-/* .about-content {
-    border: 2px solid red;
-} */
 
 .picture > img {
     height: 400px;

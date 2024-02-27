@@ -8,13 +8,13 @@
 }
 
 .Technologies > h1 {
-    font-size: 3.5rem;
+    font-size: 3rem;
     padding-left: 100px;
 }
 
 .icon {
-    height: 100px;
-    width: 100px;
+    height: 80px;
+    width: 80px;
 }
 
 .technology-1, .technology-2 {

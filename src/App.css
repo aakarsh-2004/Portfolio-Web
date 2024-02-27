@@ -4,9 +4,7 @@
     scroll-behavior: smooth;
 }
 
-.NavbarPhone {
-    visibility: hidden;
-}
+
 
 
 @media screen and (max-width: 480px) {
@@ -18,12 +16,6 @@
         display: flex !important;
         flex-direction: column !important;
         width: 100% !important;
-    }
-    .Navbar {
-        visibility: hidden;
-    }
-    .NavbarPhone {
-        visibility: visible;
     }
     
 }
